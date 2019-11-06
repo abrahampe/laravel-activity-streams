@@ -125,7 +125,7 @@ Then run an artisan command that ships with the package
 php artisan streams:make:feed 'App\Trending' 'some-unique-id'
 ```
 
-'some-unique-id' in respect to `$table->unique(['some-unique-id', 'App\Trending']);`
+`some-unique-id` is unique with respect to `$table->unique(['some-unique-id', 'App\Trending']);`
 
 #### Create an Activity
 
